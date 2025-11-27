@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GadgetZone - Gaming & Tech Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="https://cdn.pixabay.com/photo/2024/04/29/16/02/gaming-8728298_1280.jpg" class="food-munch-logo" onclick="navigateTo('home')" style="cursor: pointer;" />
+        <ul class="nav-items">
+            <li id="navItem1" onclick="navigateTo('laptops')">Laptops</li>
+            <li id="navItem2" onclick="navigateTo('phones')">Phones</li>
+            <li id="navItem3" onclick="navigateTo('accessories')">Accessories</li>
+            <li id="navItem4" onclick="navigateTo('contact')">Contact</li>
+        </ul>
+    </nav>
+
+    <!-- HOME PAGE -->
+    <div id="homePage" class="page">
+        <!-- Banner -->
+        <div class="banner-section-bg-container">
+            <h1 class="banner-heading">Ultimate Gaming Gear</h1>
+            <p class="banner-caption">High-Performance Laptops, Phones & Gadgets</p>
+            <button class="custom-button" onclick="navigateTo('laptops')">Shop Now</button>
+            <button class="custom-outline-button" onclick="navigateTo('accessories')">Explore</button>
+        </div>
+
+        <!-- Why Choose Us -->
+        <div class="wcu-section">
+            <h1 class="wcu-section-heading">Why Choose GadgetZone?</h1>
+            <p class="wcu-section-description">Top-tier tech products with unmatched performance.</p>
+
+            <div class="wcu-card">
+                <a href="https://encrypted-vtbn1.gstatic.com/video?q=tbn:ANd9GcRG46bUM8ipiEPfOU7aPWbMLJbP8gaTXl8BHrlyXT0_oPyPTmCh" target=_blank> <img src="https://images.unsplash.com/photo-1640955014216-75201056c829?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBsYXB0b3B8ZW58MXx8fHwxNzYzNTU2Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="wcu-card-image" /></a>
+                <h1 class="wcu-card-title">Latest Gaming Laptops</h1>
+                <p class="wcu-card-description">RTX-powered laptops for extreme performance.</p>
+            </div>
+
+            <div class="wcu-card">
+                <a href="https://encrypted-vtbn1.gstatic.com/video?q=tbn:ANd9GcSc1QIA5PNLkjfyGkRnaE3kPAv9f5ps4QHMhDuQ0k0gQ-Z1Ajly" target=_blank> <img src="https://images.unsplash.com/photo-1688986760609-47835488547a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBwaG9uZXxlbnwxfHx8fDE3NjM2MjI5OTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="wcu-card-image" /></a>
+                <h1 class="wcu-card-title">Pro Gaming Phones</h1>
+                <p class="wcu-card-description">Smooth gameplay with flagship processors.</p>
+            </div>
+
+            <div class="wcu-card">
+                <a href="https://www.quora.com/What-is-the-importance-of-computer-accessories" target=_blank> <img src="https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBhY2Nlc3Nvcmllc3xlbnwxfHx8fDE3NjM2MjI5OTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="wcu-card-image" /></ <h1 class="wcu-card-title">Accessories</h1>
+                    <p class="wcu-card-description">Headsets, controllers, keyboards & more.</p>
+            </div>
+        </div>
+
+        <!-- Explore Items -->
+        <div class="explore-menu-section">
+            <h1 class="menu-section-heading">Explore Our Gadgets</h1>
+
+            <div class="menu-item-card">
+                <img src="https://images.unsplash.com/photo-1640955014216-75201056c829?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBsYXB0b3B8ZW58MXx8fHwxNzYzNTU2Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="menu-item-image" />
+                <h1 class="menu-card-title">ASUS ROG Strix</h1>
+                <a class="menu-item-link" onclick="navigateTo('laptops')">View Details</a>
+            </div>
+
+            <div class="menu-item-card">
+                <img src="https://images.unsplash.com/photo-1704871132546-d1d3b845ae65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZ2IlMjBnYW1pbmclMjBwY3xlbnwxfHx8fDE3NjM2MjI5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="menu-item-image" />
+                <h1 class="menu-card-title">Lenovo Legion 5 Pro</h1>
+                <a class="menu-item-link" onclick="navigateTo('laptops')">View Details</a>
+            </div>
+
+            <div class="menu-item-card">
+                <img src="https://images.unsplash.com/photo-1688986760609-47835488547a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBwaG9uZXxlbnwxfHx8fDE3NjM2MjI5OTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="menu-item-image" />
+                <h1 class="menu-card-title">iPhone 15 Pro Max</h1>
+                <a class="menu-item-link" onclick="navigateTo('phones')">View Details</a>
+            </div>
+        </div>
+
+        <!-- Gadgets Section -->
+        <div class="healthy-food-section">
+            <img src="https://images.unsplash.com/photo-1629429408719-a64b3ae484e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBrZXlib2FyZCUyMG1vdXNlfGVufDF8fHx8MTc2MzU2ODA0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="healthy-food-section-img" />
+            <h1 class="healthy-food-section-heading">Premium Gaming Gear</h1>
+            <p class="healthy-food-section-description">
+                Enhance your gaming experience with top-quality headsets, keyboards & mice.
+            </p>
+            <button class="custom-button" onclick="navigateTo('accessories')">Buy Now</button>
+        </div>
+
+        <!-- Delivery Section -->
+        <div class="delivery-and-payment-section">
+            <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" class="delivery-and-payment-section-img" />
+            <h1 class="delivery-and-payment-section-heading">Fast Delivery</h1>
+            <p class="delivery-and-payment-section-description">Lightning-fast shipping across India.</p>
+
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" class="payment-card-img" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" class="payment-card-img" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Google_Pay_Logo.svg" class="payment-card-img" />
+            </div>
+        </div>
+
+        <!-- Thanking Section -->
+        <div class="thanking-customers-section">
+            <img src="https://cdn-icons-png.flaticon.com/512/3201/3201402.png" class="thanking-customers-section-img" />
+            <h1 class="thanking-customers-section-heading">Thank You Gamers!</h1>
+            <p class="thanking-customers-section-description">Your trust keeps us upgrading.</p>
+            <button class="custom-outline-button" onclick="navigateTo('laptops')">Explore More</button>
+        </div>
+
+        <!-- Follow -->
+        <div class="follow-us-section">
+            <h1 class="follow-us-section-heading">Follow Us</h1>
+
+            <div class="follow-us-icon-container">
+                <i class="fab fa-youtube icon"></i>
+            </div>
+
+            <div class="follow-us-icon-container">
+                <i class="fab fa-instagram icon"></i>
+            </div>
+
+            <div class="follow-us-icon-container">
+                <i class="fab fa-facebook icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- LAPTOPS PAGE -->
+    <div id="laptopsPage" class="page page-container" style="display: none;">
+        <button class="back-button" onclick="navigateTo('home')">
+            <svg class="back-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            Back to Home
+        </button>
+
+        <div class="page-header">
+            <h1 class="page-title">Gaming Laptops</h1>
+            <p class="page-description">
+                Unleash ultimate gaming power with our cutting-edge gaming laptops featuring the latest RTX graphics and powerful processors.
+            </p>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1640955014216-75201056c829?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBsYXB0b3B8ZW58MXx8fHwxNzYzNTU2Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">ASUS ROG Strix G15</h2>
+                    <p class="product-specs">RTX 4070, AMD Ryzen 9, 16GB RAM</p>
+                    <p class="product-price">₹1,49,990</p>
+                    <a href="https://amzn.in/d/8qbnvPy" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1704871132546-d1d3b845ae65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZ2IlMjBnYW1pbmclMjBwY3xlbnwxfHx8fDE3NjM2MjI5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">Lenovo Legion 5 Pro</h2>
+                    <p class="product-specs">RTX 4060, Intel i7, 16GB RAM</p>
+                    <p class="product-price">₹1,35,990</p>
+                    <a href="https://amzn.in/d/79MLTwB" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1627560270549-5c77fcde0ed3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBsYXB0b3AlMjBkaXNwbGF5fGVufDF8fHx8MTc2MzYyMzIxNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">MSI Katana 15</h2>
+                    <p class="product-specs">RTX 4050, Intel i5, 8GB RAM</p>
+                    <p class="product-price">₹95,990</p>
+                    <a href="https://amzn.in/d/hKxoNmH" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1640955014216-75201056c829?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBsYXB0b3B8ZW58MXx8fHwxNzYzNTU2Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">Acer Predator Helios</h2>
+                    <p class="product-specs">RTX 4080, Intel i9, 32GB RAM</p>
+                    <p class="product-price">₹1,65,990</p>
+                    <a href="https://amzn.in/d/3o6g19S" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1704871132546-d1d3b845ae65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZ2IlMjBnYW1pbmclMjBwY3xlbnwxfHx8fDE3NjM2MjI5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">HP OMEN 16</h2>
+                    <p class="product-specs">RTX 4060, AMD Ryzen 7, 16GB RAM</p>
+                    <p class="product-price">₹1,25,990</p>
+                    <a href="https://amzn.in/d/cKdyero" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1627560270549-5c77fcde0ed3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBsYXB0b3AlMjBkaXNwbGF5fGVufDF8fHx8MTc2MzYyMzIxNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">Dell G15 Gaming</h2>
+                    <p class="product-specs">RTX 3050, Intel i7, 8GB RAM</p>
+                    <p class="product-price">₹89,990</p>
+                    <a href="https://amzn.in/d/j2N4Dem" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PHONES PAGE -->
+    <div id="phonesPage" class="page page-container" style="display: none;">
+        <button class="back-button" onclick="navigateTo('home')">
+            <svg class="back-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            Back to Home
+        </button>
+
+        <div class="page-header">
+            <h1 class="page-title">Gaming Phones</h1>
+            <p class="page-description">
+                Experience mobile gaming at its finest with flagship processors and high refresh rate displays.
+            </p>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1688986760609-47835488547a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBwaG9uZXxlbnwxfHx8fDE3NjM2MjI5OTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">iPhone 17 Pro Max</h2>
+                    <p class="product-specs">A17 Pro, 256GB, 6.7" Display</p>
+                    <p class="product-price">₹1,59,900</p>
+                    <a href="https://amzn.in/d/dSckTzu" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1676173646307-d050e097d181?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjM1NTMxODB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">Samsung Galaxy S25 Ultra</h2>
+                    <p class="product-specs">Snapdragon 8 Gen 3, 256GB</p>
+                    <p class="product-price">₹1,29,999</p>
+                    <a href="https://amzn.in/d/9yq4cRO" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1688986760609-47835488547a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBwaG9uZXxlbnwxfHx8fDE3NjM2MjI5OTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">ASUS ROG Phone 9</h2>
+                    <p class="product-specs">Snapdragon 8 Gen 3, 144Hz Display</p>
+                    <p class="product-price">₹89,999</p>
+                    <a href="https://rog.asus.com/in/phones-group/" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1676173646307-d050e097d181?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjM1NTMxODB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">RedMagic 10 Pro</h2>
+                    <p class="product-specs">Snapdragon 8 Gen 3, Cooling Fan</p>
+                    <p class="product-price">₹64,999</p>
+                    <a href="https://global.redmagic.gg/pages/redmagic-10-pro/?srsltid=AfmBOor3B9_Mw88vFTPvWv6eLsYkmHung4CsjEb4tlwrx5nHmhs1dhZH&referrer=https%3A%2F%2Fwww.google.com%2F" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1688986760609-47835488547a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBwaG9uZXxlbnwxfHx8fDE3NjM2MjI5OTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">OnePlus 13</h2>
+                    <p class="product-specs">Snapdragon 8 Gen 3, 120Hz Display</p>
+                    <p class="product-price">₹64,999</p>
+                    <a href="https://amzn.in/d/hk77jb9" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1676173646307-d050e097d181?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjM1NTMxODB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">Google Pixel 10 Pro</h2>
+                    <p class="product-specs">Tensor G3, AI Features, 256GB</p>
+                    <p class="product-price">₹1,06,999</p>
+                    <a href="https://amzn.in/d/165YHxZ" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ACCESSORIES PAGE -->
+    <div id="accessoriesPage" class="page page-container" style="display: none;">
+        <button class="back-button" onclick="navigateTo('home')">
+            <svg class="back-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            Back to Home
+        </button>
+
+        <div class="page-header">
+            <h1 class="page-title">Gaming Accessories</h1>
+            <p class="page-description">
+                Level up your gaming setup with premium headsets, keyboards, mice, and controllers.
+            </p>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1677086813101-496781a0f327?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBoZWFkc2V0fGVufDF8fHx8MTc2MzU4MTE3OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">HyperX Cloud III</h2>
+                    <p class="product-specs">7.1 Surround Sound, USB-C</p>
+                    <p class="product-price">₹12,990</p>
+                    <a href="https://www.marshall.com/in/en/product/monitor-iii-anc?pid=1006861&gad_source=1&gad_campaignid=22263512864&gbraid=0AAAAAo7KWmyvqGZ70n8w1iPOgtYd1AN_q&gclid=CjwKCAiA_orJBhBNEiwABkdmjCblc4f76IpgnpLJC1W1i-NqmjAlF6fTWof0Nm67bTj2hovfikh1ghoCrh4QAvD_BwE" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1629429408719-a64b3ae484e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBrZXlib2FyZCUyMG1vdXNlfGVufDF8fHx8MTc2MzU2ODA0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">Logitech G502 X</h2>
+                    <p class="product-specs">Hero 25K Sensor, RGB</p>
+                    <p class="product-price">₹8,995</p>
+                    <a href="https://amzn.in/d/d5yiVZW" target=_blank> <button class="custom-button product-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1629429408719-a64b3ae484e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBrZXlib2FyZCUyMG1vdXNlfGVufDF8fHx8MTc2MzU2ODA0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">Razer BlackWidow V4</h2>
+                    <p class="product-specs">Mechanical, RGB, Macro Keys</p>
+                    <p class="product-price">₹14,990</p>
+                    <a href="https://amzn.in/d/9CyeuRj" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1677086813101-496781a0f327?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBoZWFkc2V0fGVufDF8fHx8MTc2MzU4MTE3OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">SteelSeries Arctis Nova Pro</h2>
+                    <p class="product-specs">Hi-Res Audio, Active Noise Cancellation</p>
+                    <p class="product-price">₹28,990</p>
+                    <a href="https://amzn.in/d/0tb0tTW" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBhY2Nlc3Nvcmllc3xlbnwxfHx8fDE3NjM2MjI5OTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">Xbox Elite Controller</h2>
+                    <p class="product-specs">Adjustable Tension, Wireless</p>
+                    <p class="product-price">₹16,990</p>
+                    <a href="https://amzn.in/d/2YCtCFh" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1629429408719-a64b3ae484e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBrZXlib2FyZCUyMG1vdXNlfGVufDF8fHx8MTc2MzU2ODA0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="product-image" />
+                <div class="product-info">
+                    <h2 class="product-name">Corsair MM700 RGB</h2>
+                    <p class="product-specs">Extended Mouse Pad, 15 RGB Zones</p>
+                    <p class="product-price">₹5,990</p>
+                    <a href="https://www.amazon.in/Corsair-MM700-Extended-Cloth-Gaming/dp/B08QSNNV5H?th=1" target=_blank> <button class="custom-button product-button">Add to Cart</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div id="contactPage" class="page page-container" style="display: none;">
+        <button class="back-button" onclick="navigateTo('home')">
+            <svg class="back-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            Back to Home
+        </button>
+
+        <div class="page-header">
+            <h1 class="page-title">Contact Us</h1>
+            <p class="page-description">
+                Get in touch with our gaming experts. We're here to help you find the perfect gear!
+            </p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-image-section">
+                <img src="https://images.unsplash.com/photo-1553775282-20af80779df7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250YWN0JTIwY3VzdG9tZXIlMjBzZXJ2aWNlfGVufDF8fHx8MTc2MzU0MjExMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" class="contact-hero-image" />
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info-cards">
+                    <div class="contact-info-card">
+                        <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        <h3>Email Us</h3>
+                        <p>alwaysrishi07@gmail.com</p>
+                        <p>alwaysrishi07@gmail.com</p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                        <h3>Call Us</h3>
+                        <p>+91 79813 13193</p>
+                        <p>Mon-Sat: 9:00 AM - 9:00 PM</p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                        <h3>Visit Us</h3>
+                        <p>NIAT AURORA, BUVANAGIRI</p>
+                        <p>Hyderabad, Telangana 500081</p>
+                    </div>
+                </div>
+
+
+
+                <!-- Footer -->
+                <div class="footer-section">
+                    <p class="footer-section-mail-id">alwaysrishi07@gmail.com</p>
+                    <p class="footer-section-address">Hyderabad, India</p>
+                </div>
+
+                <script>
+                    function navigateTo(page) {
+                        // Hide all pages
+                        document.getElementById('homePage').style.display = 'none';
+                        document.getElementById('laptopsPage').style.display = 'none';
+                        document.getElementById('phonesPage').style.display = 'none';
+                        document.getElementById('accessoriesPage').style.display = 'none';
+                        document.getElementById('contactPage').style.display = 'none';
+
+                        // Show selected page
+                        document.getElementById(page + 'Page').style.display = 'block';
+
+                        // Scroll to top
+                        window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth'
+                        });
+                    }
+                </script>
+</body>
+
+</html>
